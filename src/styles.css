@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.h1 {
+  color: #56dbc6;
+  width: 227px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
