@@ -27,6 +27,14 @@ h3 {
   font-family: Lucida, sans-serif;
 }
 
+h4 {
+  padding-top: 40px;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  font-family: Lucida, sans-serif;
+}
+
 p {
   padding-top: 55px;
   font-size: 24px;
@@ -66,7 +74,17 @@ p {
 }
 
 .card-backgroud-color {
-  background-color: #fff;
+  background-color: #003545;
+  border-radius: 2em;
+}
+
+.line-color {
+  background-color: #56dbc6;
+  height: 1px;
+}
+
+.space-line-color {
+  height: 60px;
 }
 
 
