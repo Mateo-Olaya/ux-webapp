@@ -102,6 +102,23 @@ p {
   background-color: #003545;
 }
 
+.form-control {
+  background-color:  #a7c7ff5d !important;
+  border-color: #a7c7ff5d;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a7c8ff;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a7c8ff;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #a7c8ff;
+}
 
 /* :host {
   display: contents;
