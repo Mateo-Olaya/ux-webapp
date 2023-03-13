@@ -35,6 +35,13 @@ h4 {
   font-family: Lucida, sans-serif;
 }
 
+.text-corrector {
+  font-size: 40px;
+  color: #56dbc6;
+  text-align: center;
+  font-family: Lucida, sans-serif;
+}
+
 p {
   padding-top: 55px;
   font-size: 24px;
