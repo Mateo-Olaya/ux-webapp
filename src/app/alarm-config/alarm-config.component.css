@@ -1,7 +1,13 @@
 .home_background {
   width: 100%;
-  height: 1800px;
+  height: 1140px;
   background-image: linear-gradient(260deg,#003730, #003545, #001F61);
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #003545;
 }
 
 .active {
@@ -50,8 +56,24 @@ h3 {
   padding-right: 20px;
 }
 
+p {
+  padding-top: 55px;
+  font-size: 24px;
+  color: #56dbc6;
+  text-align: center;
+  font-family: Lucida, sans-serif;
+}
+
 .space-line-color {
   height: 250px;
+}
+
+.line-color {
+  background-color: #60d4fe;
+  height: 1px;
+  text-align: center;
+  width: 430px;
+  margin-left: 110px;
 }
 
 .space-line {
@@ -60,6 +82,11 @@ h3 {
 
 .space-line-short {
   height: 40px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #60d4fe5e !important;
+  border-color: #60d4fe !important;
 }
 
 #parent{position: relative}
