@@ -4,17 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
-import { AlarmConfigComponent } from './alarm-config/alarm-config.component';
+import { AlarmModule } from './alarm/alarm.module';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-      AlarmConfigComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
+    AlarmModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
