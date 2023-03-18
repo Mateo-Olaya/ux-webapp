@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule,
   ],
-  declarations: [AlarmComponent],
-  exports: [AlarmComponent],
+  declarations: [],
+  exports: [],
 })
 export class AlarmModule { }
